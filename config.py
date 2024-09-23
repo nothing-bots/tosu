@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_tosuu")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/gojo_bot_update")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/nothing_bots_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/97669c286e18c2eddc72d.jpg"
+    "START_IMG_URL", "https://envs.sh/0Nz.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/97669c286e18c2eddc72d.jpg"
+    "PING_IMG_URL", "https://envs.sh/0Nz.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-STATS_IMG_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-STREAM_IMG_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/97669c286e18c2eddc72d.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/0Nz.jpg"
+STATS_IMG_URL = "https://envs.sh/0Nz.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/0Nz.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/0Nz.jpg"
+STREAM_IMG_URL = "https://envs.sh/0Nz.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/0Nz.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/0Nz.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/0Nz.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/0Nz.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/0Nz.jpg"
 
 
 def time_to_seconds(time):
