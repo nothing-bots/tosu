@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = "24620300"
+API_HASH = "9a098f01aa56c836f2e34aee4b7ef963"
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/gojo_bot_update")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/nothing_bots_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Hogwart")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HunterXsupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/0Nz.jpg"
+    "START_IMG_URL", "https://envs.sh/SnH.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/0Nz.jpg"
+    "PING_IMG_URL", "https://envs.sh/SnH.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/0Nz.jpg"
-STATS_IMG_URL = "https://envs.sh/0Nz.jpg"
-TELEGRAM_AUDIO_URL = "https://envs.sh/0Nz.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/0Nz.jpg"
-STREAM_IMG_URL = "https://envs.sh/0Nz.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/0Nz.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/0Nz.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/0Nz.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/0Nz.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/0Nz.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/SnH.jpg"
+STATS_IMG_URL = "https://envs.sh/SnH.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/SnH.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/SnH.jpg"
+STREAM_IMG_URL = "https://envs.sh/SnH.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/SnH.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/SnH.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/SnH.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/SnH.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/SnH.jpg"
 
 
 def time_to_seconds(time):
